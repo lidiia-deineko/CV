@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    padding: 0 15px;
+}
+
+.header-inner{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Rubik,sans-serif;
+}
+
+.header-name{
+    display: inline-block;
+    font-size: 42px;
+    min-width: 500px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 400;
+    padding-top: 100px;
+    color: #706f6f;
+}
+
+.header-occupation{
+    font-size: 28px;
+    min-width: 500px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color:#c8aa8c;
+    padding-top: 45px;
+}
+
+.header-contacts{
+    padding-top: 45px;
+}
+
+.header-contacts__date{
+    display: inline-block;
+    color: #706f6f;
+}
+
+.header-contacts__title{
+    color:#c8aa8c;
+    padding-right: 40px;
+}
+
+.header-contacts__link{
+    text-decoration: none;
+    color:#706f6f;
+}
+
+.header-contacts__item{
+    padding: 10px 0;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.header-socials__link{
+    font-size: 30px;
+    color:#c8aa8c;
+    padding-right: 20px;
+}
+
+.header-socials__title{
+    color:#706f6f;
+    padding-right: 40px;
+}
+
+.header-socials{
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+
+.header-resume{
+    display: inline-block;
+    position: relative;
+}
+
+.header-resume__btn{
+    text-decoration: none;
+    border: 1px solid #706f6f;
+    padding: 15px;
+    padding-left: 60px;
+    color: #706f6f;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.header-resume__link{
+    font-size: 30px;
+    color:#c8aa8c;
+    padding-right: 20px;
+    position: absolute;
+    top: -5px;
+    left: 10px;
+}
+
+.inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.title{
+    margin: 0;
+    text-transform: uppercase;
+    color: #c8aa8c;
+    margin-right: 100px;
+    width: 100px;
+}
+
+.education{
+    margin-bottom: 100px;
+}
+
+.education-items{
+    border-top: 3px solid #c8aa8c;
+    margin-top: 11px;
+}
+
+.education-item{
+    padding: 15px 0px;
+}
+
+.education-item__date{
+    color: #c8aa8c;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.education-item__institution{
+    color: #706f6f;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.education-item__course{
+    color: #706f6f;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.career-experience{
+    border-top: 3px solid #c8aa8c;
+    margin-top: 11px;
+}
