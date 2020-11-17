@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .header-inner{
@@ -38,9 +38,9 @@ body{
 
 .header-occupation{
     font-size: 28px;
+    font-weight: bold;
     min-width: 500px;
     letter-spacing: 1px;
-    font-weight: 300;
     color:#c8aa8c;
     padding-top: 45px;
 }
@@ -277,7 +277,8 @@ body{
     background-size: cover;
     background-position: center;
     height: 250px;
-    margin-left: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 

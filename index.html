@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d3c8db7853.js" crossorigin="anonymous"></script>
      
@@ -87,7 +88,7 @@
         </section>
         <section class="career">
             <div class="container">
-                <div class="inner  wow" data-wow-duration="2s">
+                <div class="inner slideInRight wow" data-wow-duration="2s">
                     <h2 class="title">career</h2>
                     <div class="career-experience">
                         <div class="career-items">
@@ -123,7 +124,7 @@
                 </div>
             </div>
         </section>
-        <section class="profSkills">
+      <section class="profSkills">
             <div class="container">
                 <div class="inner slideInRight wow" data-wow-duration="2s">
                     <h2 class="title">professional skills</h2>
@@ -208,8 +209,16 @@
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>   
-   
 
+    <script>
+        var wow = new WOW(
+          {
+            mobile: false
+          }
+        );
+        wow.init();
+    </script>
+    
 </body>
 </html>
 
