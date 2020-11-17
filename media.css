@@ -1,0 +1,43 @@
+
+@media (max-width: 1200px){
+ 
+}
+
+@media (max-width: 1000px){
+    
+}
+
+@media (max-width: 800px){
+    
+}
+
+@media (max-width: 600px){
+
+    .header-name{
+        font-size: 32px;
+      
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-weight: 400;
+        padding-top: 100px;
+        color: #706f6f;
+    }
+
+    .header-occupation{
+        font-size: 22px;
+        font-weight: bold;
+    
+        letter-spacing: 1px;
+        color:#c8aa8c;
+        padding-top: 45px;
+    }
+}
+
+@media (max-width: 500px){
+    .header-inner{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+
+}
