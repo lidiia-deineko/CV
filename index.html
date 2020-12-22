@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lidiia Deineko</title>
-    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,7 +17,7 @@
     <header class="header">
         <div class="container">
             <div class="header-inner">
-                <div class="header-name">IDIIA DEINEKO</div>
+                <div class="header-name">LIDIIA DEINEKO</div>
                 <div class="header-occupation">Front-end developer</div>
                 <div class="header-contacts">
                     <div class="header-contacts__item">
@@ -47,9 +47,9 @@
         </div>
     </header>
     <main>
-        <section class="education">
+        <section  data-aos="fade-right" data-aos-duration="1200" class="education">
             <div class="container">
-                <div class="inner slideInRight wow" data-wow-duration="2s">
+                <div class="inner">
                     <h2 class="title">education</h2>
                     <div class="education-items">
                         <div class="education-item">
@@ -79,16 +79,16 @@
                         </div>
                         <div class="education-item">
                             <div class="education-item__date">SINCE AUGUST 2020</div>
-                            <div class="education-item__institution">COURSERA ONLINE LEARNING PLATFORM</div>
-                            <div class="education-item__course">course «JavaScript. Basics and functions. Prototypes and Asynchrony»</div>
+                            <div class="education-item__institution">UDEMY ONLINE LEARNING PLATFORM</div>
+                            <div class="education-item__course">course «JavaScript and React»</div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="career">
+        <section data-aos="fade-left" data-aos-duration="1200" class="career">
             <div class="container">
-                <div class="inner slideInRight wow" data-wow-duration="2s">
+                <div class="inner">
                     <h2 class="title">career</h2>
                     <div class="career-experience">
                         <div class="career-items">
@@ -124,17 +124,16 @@
                 </div>
             </div>
         </section>
-      <section class="profSkills">
+      <section data-aos="fade-right" data-aos-duration="1200" class="profSkills">
             <div class="container">
-                <div class="inner slideInRight wow" data-wow-duration="2s">
+                <div class="inner">
                     <h2 class="title">professional skills</h2>
                     <ul class="list">
                         <li>Adaptive layout</li>
                         <li>HTML5/CSS3</li>
                         <li>Flexbox, Grid</li>
-                        <li>BEM Methodology</li>
-                        <li>Using google fonts, fontawesome</li>
-                        <li>Basic knowledge of JavaScript (jQuery)</li>
+                        <li>BEM methodology</li>
+                        <li>JavaScript</li>
                         <li>Basic skills of working with GitHub</li>
                         <li>Graphic editors: Photoshop, Figma</li>
                         <li>Code Editors: Sublime Text, Visual Studio Code, Web Storm</li>
@@ -142,30 +141,44 @@
                 </div>
             </div>
         </section>
-        <section class="certificates">
+        <section  class="certificates">
             <div class="container">
-                <div class="inner slideInLeft wow" data-wow-duration="2s">
-                    <h2 class="title">certificates</h2>
+                <div class="inner">
+                    <h2 data-aos="fade-left" data-aos-duration="1200" class="title">certificates</h2>
                     <div class="certificates-items">
-                        <div class="certificates-item">
-                            <div class="certificates-item__name">BASICS OF HTML  AND CSS, NETOOLOGY, 2017</div>
-                            <a href="https://drive.google.com/file/d/1-qs8gvnkHrpVsjzSSbuQfsKv5tS2tuLk/view?usp=sharing" class="certificates-item__id">№WM-7-2017.1932</a>
+                       
+                        <div data-aos="zoom-in" data-aos-duration="1200" class="certificates-item">
+                            <div class="certificates-item__name">BASICS OF HTML AND CSS</div>
+                            <div class="certificates-item__date">NETOOLOGY, 2017</div>
+                            <a href="https://drive.google.com/file/d/1-qs8gvnkHrpVsjzSSbuQfsKv5tS2tuLk/view?usp=sharing" class="certificates-item__id">№WM-7-2017.1932</a>                                                   
+                            <a href="https://drive.google.com/file/d/1-qs8gvnkHrpVsjzSSbuQfsKv5tS2tuLk/view?usp=sharing">
+                                <img class="certificates-item__img" src="images/HTML CSS.png" alt="HTML&CSS">
+                            </a>
                         </div>
-                        <div class="certificates-item">
-                            <div class="certificates-item__name">HTML DEVELOPER, IMT ACADEMY, 2018</div>
+                        <div data-aos="zoom-in" data-aos-duration="1200" class="certificates-item">
+                            <div class="certificates-item__name">HTML DEVELOPER</div>
+                            <div class="certificates-item__date">IMT ACADEMY, 2018</div>
                             <a href="https://drive.google.com/file/d/1TctWNj1JgweSARa_6YdgyTF914PrxZpy/view?usp=sharing" class="certificates-item__id">№ЛД-29092018НД</a>
+                            <a href="https://drive.google.com/file/d/1-qs8gvnkHrpVsjzSSbuQfsKv5tS2tuLk/view?usp=sharing">
+                                <img class="certificates-item__img" src="images/html-верстальщик.jpg" alt="HTML-developer">
+                            </a>
                         </div>
-                        <div class="certificates-item">
-                            <div class="certificates-item__name">INTERMEDIATE ENGLISH LEVEL, ESL SCHOOL, 2020</div>
+                        <div data-aos="zoom-in" data-aos-duration="1200" class="certificates-item">
+                            <div class="certificates-item__name">INTERMEDIATE ENGLISH LEVEL</div>
+                            <div class="certificates-item__date">ESL SCHOOL, 2020</div>
                             <a href="https://drive.google.com/file/d/1DnWk6tVE19JsGXCkf2jt5j_QTozovXxC/view?usp=sharing" class="certificates-item__id">№0906-4</a>
-                        </div>
+                            <a href="https://drive.google.com/file/d/1-qs8gvnkHrpVsjzSSbuQfsKv5tS2tuLk/view?usp=sharing">
+                                <img  class="certificates-item__img" src="images/intermediate level ESL.jpg" alt="Intermediate level">
+                            </a>
+                        </div>    
                     </div>
                 </div>
             </div>
         </section>
-        <section class="language">
+        
+        <section data-aos="fade-right" data-aos-duration="1200" class="language">
             <div class="container">
-                <div class="inner slideInRight wow" data-wow-duration="2s">
+                <div class="inner">
                     <h2 class="title">language skills</h2>
                     <div class="language-items">
                         <div class="language-item">ENGLISH – INTERMEDIATE</div>
@@ -175,7 +188,7 @@
         </section>
         <!-- <section class="portfolio">
             <div class="container">
-                <div class="inner slideInLeft wow" data-wow-duration="2s">
+                <div class="inner">
                     <h2 class="title">portfolio</h2>
                     <div class="slider">
                         <a href="https://lidiia-deineko.github.io/Solution-ARP/" class="slider__item"
@@ -190,9 +203,32 @@
                 </div>
             </div>
         </section> -->
-        <section class="personal">
+
+        <section class="portfolio">
             <div class="container">
-                <div class="inner slideInRight wow" data-wow-duration="2s">
+                <div class="inner">
+                    <h2 data-aos="fade-left" data-aos-duration="1200" class="title">portfolio</h2>
+                    <div class="portfolio-items">
+                        <a data-aos="zoom-in" data-aos-duration="1200" href="https://lidiia-deineko.github.io/Solution-ARP/" class="portfolio__item">
+                            <img class="portfolio-item__img" src="images/project_1.png" alt="Project_1">
+                        </a>
+                        <a data-aos="zoom-in" data-aos-duration="1200" href="https://lidiia-deineko.github.io/Tesla_project/" class="portfolio__item">
+                            <img class="portfolio-item__img" src="images/Project_2.png" alt="Project_2">
+                        </a>
+                        <a data-aos="zoom-in" data-aos-duration="1200" href="https://lidiia-deineko.github.io/Audi_project/" class="portfolio__item">
+                            <img class="portfolio-item__img" src="images/Project_3.png" alt="Project_3">
+                        </a>  
+                        <a data-aos="zoom-in" data-aos-duration="1200" href="https://lidiia-deineko.github.io/Clinic-COLAEES/" class="portfolio__item">
+                            <img class="portfolio-item__img" src="images/Project_4.png" alt="Project_4">
+                        </a>             
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-left" data-aos-duration="1200" class="personal">
+            <div class="container">
+                <div class="inner">
                     <h2 class="title">personal qualities</h2>
                     <ul class="list">
                         <li>ability to evaluate my capabilities objectively to solve the assigned tasks; </li>
@@ -207,16 +243,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>   
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        var wow = new WOW(
-          {
-            mobile: false
-          }
-        );
-        wow.init();
+        AOS.init();
     </script>
     
 </body>
