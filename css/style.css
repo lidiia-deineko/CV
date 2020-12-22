@@ -5,11 +5,12 @@
 body{
 	margin: 0px;
     padding: 0px;
+    font-size: 18px;
     font-family: Rubik,sans-serif;
 }
 
 .container{
-    padding: 0 20px;
+    padding: 0 20px; 
 }
 
 .header-inner{
@@ -17,18 +18,15 @@ body{
     margin: 0 auto;
 }
 
-.header{
-   
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 100px;
+.header{    
+    padding-bottom: 100px;
+    padding-top: 20px;
 }
 
 .header-name{
     display: inline-block;
     font-size: 42px;
-    min-width: 500px;
+ 
     text-transform: uppercase;
     letter-spacing: 6px;
     font-weight: 400;
@@ -39,7 +37,7 @@ body{
 .header-occupation{
     font-size: 28px;
     font-weight: bold;
-    min-width: 500px;
+  
     letter-spacing: 1px;
     color:#c8aa8c;
     padding-top: 45px;
@@ -87,6 +85,7 @@ body{
 }
 
 .header-resume{
+    
     display: inline-block;
     position: relative;
 }
@@ -99,6 +98,7 @@ body{
     color: #706f6f;
     text-transform: uppercase;
     font-size: 16px;
+    box-shadow: 0 4px 25px rgba(0,0,0,.25);s
 }
 
 .header-resume__link{
@@ -124,7 +124,8 @@ body{
 }
 
 .education{
-    margin-bottom: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .education-items{
@@ -157,7 +158,8 @@ body{
 }
 
 .career{
-    margin-bottom: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .career-experience{
@@ -201,7 +203,8 @@ body{
 }
 
 .profSkills{
-    margin-bottom: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .list{
@@ -213,7 +216,8 @@ body{
 }
 
 .certificates{
-    margin-bottom: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .certificates-items{
@@ -222,6 +226,9 @@ body{
     margin-top: 11px;
     line-height: 25px; 
     color: #706f6f;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .certificates-item__name{
@@ -237,10 +244,24 @@ body{
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 500;
+    display: block;
+}
+
+.certificates-item__img{
+    box-shadow: 0 4px 25px rgba(0,0,0,.25);
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+    border-top: 2px solid #c8aa8c;
+    border-left: 2px solid #c8aa8c;
+    border-bottom: 2px solid #706f6f;
+    border-right: 2px solid #706f6f;
+    border-radius: 7px;
 }
 
 .language{
-    margin-bottom: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .language-items{
@@ -259,7 +280,32 @@ body{
 }
 
 .portfolio{
-    margin-bottom: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.portfolio-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio__item{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.portfolio-item__img{
+    box-shadow: 0 4px 25px rgba(0,0,0,.25);
+    margin-top: 20px;
+    padding: 10px;
+    width: 450px;
+    border-top: 2px solid #c8aa8c;
+    border-left: 2px solid #c8aa8c;
+    border-bottom: 2px solid #706f6f;
+    border-right: 2px solid #706f6f;
+    border-radius: 7px;
 }
 
 .slider {
@@ -302,5 +348,6 @@ body{
 }
 
 .personal{
-    margin-bottom: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
