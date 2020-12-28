@@ -8,14 +8,18 @@
 }
 
 @media (max-width: 800px){
-    
+    .header-contacts__item{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 600px){
+    body{
+        font-size: 16px;
+    }
 
     .header-name{
         font-size: 32px;
-      
         text-transform: uppercase;
         letter-spacing: 6px;
         font-weight: 400;
@@ -31,6 +35,29 @@
         color:#c8aa8c;
         padding-top: 45px;
     }
+
+    .certificates-item__img{
+        box-shadow: 0 4px 25px rgba(0,0,0,.25);
+        margin-top: 20px;
+        padding: 10px;
+        width: 200px;
+        border-top: 2px solid #c8aa8c;
+        border-left: 2px solid #c8aa8c;
+        border-bottom: 2px solid #706f6f;
+        border-right: 2px solid #706f6f;
+        border-radius: 7px;
+    }
+    
+    .portfolio-item__img{
+        box-shadow: 0 4px 25px rgba(0,0,0,.25);
+        margin-top: 20px;
+        padding: 10px;
+        width: 250px;
+        border-top: 2px solid #c8aa8c;
+        border-left: 2px solid #c8aa8c;
+        border-bottom: 2px solid #706f6f;
+        border-right: 2px solid #706f6f;
+        border-radius: 7px;
 }
 
 @media (max-width: 500px){
@@ -39,5 +66,15 @@
         margin: 0 auto;
     }
 
+    .portfolio-item__img{
+        box-shadow: 0 4px 25px rgba(0,0,0,.25);
+        margin-top: 20px;
+        padding: 10px;
+        width: 250px;
+        border-top: 2px solid #c8aa8c;
+        border-left: 2px solid #c8aa8c;
+        border-bottom: 2px solid #706f6f;
+        border-right: 2px solid #706f6f;
+        border-radius: 7px;
 
 }
