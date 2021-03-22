@@ -102,12 +102,12 @@ body{
     color: #706f6f;
     text-transform: uppercase;
     font-size: 16px;
-    box-shadow: 0 4px 25px rgba(0,0,0,.25);s
+    box-shadow: 0 4px 25px rgba(0,0,0,.25);
 }
 
 .header-resume__link{
     font-size: 30px;
-    color:#c8aa8c;
+    color: #c8aa8c;
     padding-right: 20px;
     position: absolute;
     top: -5px;
@@ -235,6 +235,11 @@ body{
     flex-wrap: wrap;
 }
 
+.certificates-item{
+    margin-left: 15px;
+    text-align: center;
+}
+
 .certificates-item__name{
     color: #c8aa8c;
     font-size: 16px;
@@ -261,6 +266,7 @@ body{
     border-bottom: 2px solid #706f6f;
     border-right: 2px solid #706f6f;
     border-radius: 7px;
+
 }
 
 .language{
@@ -317,4 +323,9 @@ body{
 .personal{
     padding-bottom: 20px;
     padding-top: 20px;
+    
+}
+
+.main{
+    overflow: hidden;
 }
