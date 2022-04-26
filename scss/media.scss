@@ -1,0 +1,284 @@
+@media (max-width: 900px){
+    .header{
+        padding: 15px;
+        &-logo{
+            font-size: 26px;
+        }
+        &-resume{
+            &__link{
+                font-size: 25px;
+            }
+            &__title{
+                font-size: 14px;
+            }
+        }
+    }
+
+    
+    .info{
+        &-content{
+            &__img{
+                width: 250px;
+            }
+            &__name{
+                font-size: 32px;
+            }
+            &__occupation{
+                font-size: 22px;
+            }
+        }
+        &-resume{
+            margin-top: 20px;
+            max-width: 190px;
+            &__btn{
+                padding: 5px;
+            }
+            &__link{
+                font-size: 24px;
+            }
+            &__title{
+                font-size: 14px;
+            }
+        }
+    }
+    
+    .contacts-title{
+        &__item{
+            font-size: 18px;
+        }
+    }
+
+    .contacts-value{
+        &__item{
+            font-size: 16px;
+        }
+    }
+    .footer{
+        &__contacts{
+            &__item{
+                padding-bottom: 30px;
+            }
+            &__list{
+                flex-direction: column;
+            }
+            &__link{
+                margin-top: 15px;
+            }
+            &__title{
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px){    
+    .contact-btns{
+        &__telegram{
+            right: 16px;
+            bottom: 1px;
+            animation-delay: .2s;
+            
+        }
+        &__viber{
+            left: 12px;
+            bottom: 23px;
+            animation-delay: .4s;
+        }
+        &__skype{
+            left: 70px;
+            bottom: 1px;
+            animation-delay: .6s;
+
+        }
+        &__img{
+            width: 30px;
+            &_main{
+                width: 50px;
+            }
+        }
+    }
+
+    .info{
+        padding-top: 100px;
+        &-content{
+            &__img{
+                width: 225px;
+            }
+            &__name{
+                font-size: 26px;
+            }
+            &__occupation{
+                font-size: 20px;
+                padding-top: 20px;
+            }
+            &__contacts{   
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+        &-resume{
+            max-width: 170px;
+            &__link{
+                font-size: 20px;
+            }
+            &__title{
+                font-size: 12px;
+            }
+        }
+    }
+    
+    .contacts-title{
+        &__item{
+            font-size: 18px;
+            padding: 7px 0;
+        }
+    }
+
+    .contacts-value{
+        &__item{
+            font-size: 16px;
+            padding: 8px 0;
+        }
+    }
+}
+
+@media (max-width: 650px){
+    .info{
+        height: 100vh;
+        padding-top: 0px;
+        display: flex;
+        align-items: center;
+        &-content{
+            flex-direction: column;
+            align-items: center;
+            &__img{
+                width: 225px;
+                margin-bottom: 50px;
+            }
+            &__name{
+                font-size: 26px;
+            }
+            &__occupation{
+                font-size: 20px;
+                padding-top: 20px;
+            }
+            &__contacts{   
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+        &-resume{
+            max-width: 170px;
+            &__link{
+                font-size: 20px;
+            }
+            &__title{
+                font-size: 12px;
+            }
+        }
+    }
+    .contact-btns{
+        bottom: 60px;
+        right: 120px;
+        &__telegram{
+            right: 16px;
+            bottom: 1px;
+            
+        }
+        &__viber{
+            left: 10px;
+            bottom: 23px;
+        }
+        &__skype{
+            left: 70px;
+            bottom: 1px;
+
+        }
+        &__img{
+            width: 30px;
+            &_main{
+                width: 45px;
+            }
+        }
+    }
+    
+    .title-section{
+        font-size: 22px;
+        margin-top: 50px;
+    }
+
+    .education{
+        margin-top: 0px;
+        margin-bottom: 50px;
+        &-item{
+            &__institution{
+                font-size: 16px;
+            }
+            &__course{
+                font-size: 16px;
+            }
+        }
+    }
+   
+    .skills{
+        margin-top: 50px;
+        &__list{
+            font-size: 16px;
+        }
+    }
+
+    
+    .personal{
+        &__list{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 600px){
+    .header{
+        &-logo{
+            font-size: 24px;
+        }
+        &-resume{
+            &__link{
+                font-size: 23px;
+            }
+            &__title{
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px){
+
+    .info{
+        &-content{
+            &__img{
+                width: 200px;
+                margin-bottom: 40px;
+            }
+            &__name{
+                font-size: 22px;
+            }
+            &__occupation{
+                font-size: 16px;
+                padding-top: 15px;
+            }
+        }
+    }
+    .contacts-title{
+        &__item{
+            font-size: 16px;
+            padding: 7px 0;
+        }
+    }
+
+    .contacts-value{
+        &__item{
+            font-size: 14px;
+            padding: 8px 0;
+        }
+    }
+}
