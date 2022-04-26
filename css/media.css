@@ -1,80 +1,173 @@
+@media (max-width: 900px) {
+  .header {
+    padding: 15px; }
+    .header-logo {
+      font-size: 26px; }
+    .header-resume__link {
+      font-size: 25px; }
+    .header-resume__title {
+      font-size: 14px; }
 
-@media (max-width: 1200px){
- 
-}
+  .info-content__img {
+    width: 250px; }
+  .info-content__name {
+    font-size: 32px; }
+  .info-content__occupation {
+    font-size: 22px; }
+  .info-resume {
+    margin-top: 20px;
+    max-width: 190px; }
+    .info-resume__btn {
+      padding: 5px; }
+    .info-resume__link {
+      font-size: 24px; }
+    .info-resume__title {
+      font-size: 14px; }
 
-@media (max-width: 1000px){
-    
-}
+  .contacts-title__item {
+    font-size: 18px; }
 
-@media (max-width: 800px){
-    .header-contacts__item{
-        font-size: 18px;
-    }
-}
+  .contacts-value__item {
+    font-size: 16px; }
 
-@media (max-width: 600px){
-    body{
-        font-size: 16px;
-    }
+  .footer__contacts__item {
+    padding-bottom: 30px; }
+  .footer__contacts__list {
+    flex-direction: column; }
+  .footer__contacts__link {
+    margin-top: 15px; }
+  .footer__contacts__title {
+    text-align: center; } }
+@media (max-width: 700px) {
+  .contact-btns__telegram {
+    right: 16px;
+    bottom: 1px;
+    animation-delay: .2s; }
+  .contact-btns__viber {
+    left: 12px;
+    bottom: 23px;
+    animation-delay: .4s; }
+  .contact-btns__skype {
+    left: 70px;
+    bottom: 1px;
+    animation-delay: .6s; }
+  .contact-btns__img {
+    width: 30px; }
+    .contact-btns__img_main {
+      width: 50px; }
 
-    .header-name{
-        font-size: 32px;
-        text-transform: uppercase;
-        letter-spacing: 6px;
-        font-weight: 400;
-        padding-top: 100px;
-        color: #706f6f;
-    }
+  .info {
+    padding-top: 100px; }
+    .info-content__img {
+      width: 225px; }
+    .info-content__name {
+      font-size: 26px; }
+    .info-content__occupation {
+      font-size: 20px;
+      padding-top: 20px; }
+    .info-content__contacts {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .info-resume {
+      max-width: 170px; }
+      .info-resume__link {
+        font-size: 20px; }
+      .info-resume__title {
+        font-size: 12px; }
 
-    .header-occupation{
-        font-size: 22px;
-        font-weight: bold;
-    
-        letter-spacing: 1px;
-        color:#c8aa8c;
-        padding-top: 45px;
-    }
+  .contacts-title__item {
+    font-size: 18px;
+    padding: 7px 0; }
 
-    .certificates-item__img{
-        box-shadow: 0 4px 25px rgba(0,0,0,.25);
-        margin-top: 20px;
-        padding: 10px;
-        width: 200px;
-        border-top: 2px solid #c8aa8c;
-        border-left: 2px solid #c8aa8c;
-        border-bottom: 2px solid #706f6f;
-        border-right: 2px solid #706f6f;
-        border-radius: 7px;
-    }
-    
-    .portfolio-item__img{
-        box-shadow: 0 4px 25px rgba(0,0,0,.25);
-        margin-top: 20px;
-        padding: 10px;
-        width: 250px;
-        border-top: 2px solid #c8aa8c;
-        border-left: 2px solid #c8aa8c;
-        border-bottom: 2px solid #706f6f;
-        border-right: 2px solid #706f6f;
-        border-radius: 7px;
-}
+  .contacts-value__item {
+    font-size: 16px;
+    padding: 8px 0; } }
+@media (max-width: 650px) {
+  .info {
+    height: 100vh;
+    padding-top: 0px;
+    display: flex;
+    align-items: center; }
+    .info-content {
+      flex-direction: column;
+      align-items: center; }
+      .info-content__img {
+        width: 225px;
+        margin-bottom: 50px; }
+      .info-content__name {
+        font-size: 26px; }
+      .info-content__occupation {
+        font-size: 20px;
+        padding-top: 20px; }
+      .info-content__contacts {
+        margin-top: 30px;
+        margin-bottom: 30px; }
+    .info-resume {
+      max-width: 170px; }
+      .info-resume__link {
+        font-size: 20px; }
+      .info-resume__title {
+        font-size: 12px; }
 
-@media (max-width: 500px){
-    .header-inner{
-        max-width: 350px;
-        margin: 0 auto;
-    }
+  .contact-btns {
+    bottom: 60px;
+    right: 120px; }
+    .contact-btns__telegram {
+      right: 16px;
+      bottom: 1px; }
+    .contact-btns__viber {
+      left: 10px;
+      bottom: 23px; }
+    .contact-btns__skype {
+      left: 70px;
+      bottom: 1px; }
+    .contact-btns__img {
+      width: 30px; }
+      .contact-btns__img_main {
+        width: 45px; }
 
-    .portfolio-item__img{
-        box-shadow: 0 4px 25px rgba(0,0,0,.25);
-        margin-top: 20px;
-        padding: 10px;
-        width: 250px;
-        border-top: 2px solid #c8aa8c;
-        border-left: 2px solid #c8aa8c;
-        border-bottom: 2px solid #706f6f;
-        border-right: 2px solid #706f6f;
-        border-radius: 7px;
+  .title-section {
+    font-size: 22px;
+    margin-top: 50px; }
 
-}
+  .education {
+    margin-top: 0px;
+    margin-bottom: 50px; }
+    .education-item__institution {
+      font-size: 16px; }
+    .education-item__course {
+      font-size: 16px; }
+
+  .skills {
+    margin-top: 50px; }
+    .skills__list {
+      font-size: 16px; }
+
+  .personal__list {
+    font-size: 16px; } }
+@media (max-width: 600px) {
+  .header-logo {
+    font-size: 24px; }
+  .header-resume__link {
+    font-size: 23px; }
+  .header-resume__title {
+    display: none; } }
+@media (max-width: 400px) {
+  .info-content__img {
+    width: 200px;
+    margin-bottom: 40px; }
+  .info-content__name {
+    font-size: 22px; }
+  .info-content__occupation {
+    font-size: 16px;
+    padding-top: 15px; }
+
+  .contacts-title__item {
+    font-size: 16px;
+    padding: 7px 0; }
+
+  .contacts-value__item {
+    font-size: 14px;
+    padding: 8px 0; } }
+
+/*# sourceMappingURL=adaptive.css.map */
