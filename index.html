@@ -4,168 +4,173 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lidiia Deineko</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d3c8db7853.js" crossorigin="anonymous"></script>
-     
+    <script src="js/main.js"></script>
 </head>
+
 <body>
+    <section class="contact-btns">
+        <a class="contact-btns__item contact-btns__telegram" href="tg:+380939044816"><img class="contact-btns__img" src="/images/telegram.svg" alt=""></a>
+        <a class="contact-btns__item contact-btns__viber" href="tg:+380939044816"><img class="contact-btns__img" src="/images/viber.svg" alt=""></a>
+        <a class="contact-btns__item contact-btns__skype" href="skype:lida.deineko"><img class="contact-btns__img" src="/images/skype.svg" alt=""></a>
+        <a class="contact-btns__item contact-btns__gmail" href="mailto:93deineko@gmail.com"><img class="contact-btns__img contact-btns__img_main" src="/images/gmail.svg" alt=""></a>
+    </section>
+
     <header class="header">
+        <div class="header-container">
+                <a class="header-logo" href="">Lidiia Deineko</a>
+                <a class="header-resume" href="docs/Lidiia Deineko.pdf" download="">
+                <i class="fas fa-cloud-download-alt header-resume__link"></i>
+                <span class="header-resume__title">download resume</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="info">
         <div class="container">
-            <div class="header-inner">
-                <div class="header-name">LIDIIA DEINEKO</div>
-                <div class="header-occupation">Junior Front-end developer</div>
-                <div class="header-contacts">
-                    <div class="header-contacts__item">
-                        <span class="header-contacts__title">Date of birth</span>
-                        <div class="header-contacts__date">28.11.1993</div>
-                    </div>
-                    <div class="header-contacts__item">
-                        <span class="header-contacts__title">Phone</span>
-                        <a href="tel:+380939044816" class="header-contacts__link">+38 (093) 904 48 16</a>
-                    </div>
-                    <div class="header-contacts__item">
-                        <span class="header-contacts__title">Email</span>
-                        <a href="mailto:93deineko@gmail.com" class="header-contacts__link">93deineko@gmail.com</a>
-                    </div>
-                    <div class="header-socials header-contacts__item">
-                        <span class="header-socials__title header-contacts__title">Social links</span>
-                        <a href="tg:+380939044816" class="header-socials__link header-socials__telegram"><i class="fab fa-telegram"></i></a>
-                        <a href="skype:lida.deineko" class="header-socials__link header-socials__skype"><i class="fab fa-skype"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100014908902161" class="header-socials__link header-socials__facebook"><i class="fab fa-facebook"></i></a>
-                    </div>
+            <div class="info-content">
+                <div class="info-content__avatar">
+                    <img class="info-content__img" src="images/avatar.jpg" alt="">
                 </div>
-                <div class="header-resume">
-                    <a href="docs/Lidiia Deineko.pdf" download="" 
-                    class="header-resume__btn"><i class="fas fa-cloud-download-alt header-resume__link"></i><span class="header-resume__title">download resume</span></a>
+                <div class="info-content__data">
+                    <div class="info-content__name">Lidiia Deineko</div>
+                    <div class="info-content__occupation">Junior Front-end developer</div>
+                    <div class="info-content__contacts">
+                        <div class="contacts-title">
+                            <div class="contacts-title__item">Date of birth</div>
+                            <div class="contacts-title__item">Phone</div>
+                            <div class="contacts-title__item">Email</div>
+                        </div>
+                        <div class="contacts-values">
+                            <div class="contacts-value__item ">28.11.1993</div>
+                            <div class="contacts-value__item">
+                                <a class="contacts-value__link" href="tel:+380939044816">+38 (093) 904 48 16</a>
+                            </div>
+                            <div class="contacts-value__item">
+                                <a class="contacts-value__link" href="mailto:93deineko@gmail.com">93deineko@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-resume">
+                        <a class="info-resume__btn" href="docs/Lidiia Deineko.pdf" download="">
+                        <i class="fas fa-cloud-download-alt info-resume__link"></i>
+                        <span class="info-resume__title">download resume</span></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-    <main class="main">
-        <section  data-aos="fade-right" data-aos-duration="1200" class="education">
-            <div class="container">
-                <div class="inner">
-                    <h2 class="title">education</h2>
-                    <div class="education-items">
-                        <div class="education-item">
-                            <div class="education-item__date">2011-2017</div>
-                            <div class="education-item__institution">OLES HONCHAR DNIPROPETROVSK NATIONAL UNIVERSITY</div>
-                            <div class="education-item__course">Master Degree in mechanical engineering</div>
-                        </div>
-                        <div class="education-item">
-                            <div class="education-item__date">OCTOBER 2016 – JULY 2017</div>
-                            <div class="education-item__institution">SERGEY PULIN'S ENGLISH SCHOOL</div>
-                            <div class="education-item__course">course Pre-Intermediate English level</div>
-                        </div>
-                        <div class="education-item">
-                            <div class="education-item__date">JULY 2018 – SEPTEMBER 2018</div>
-                            <div class="education-item__institution">IMT ACADEMY</div>
-                            <div class="education-item__course">course «HTML Developer»</div>
-                        </div>
-                        <div class="education-item">
-                            <div class="education-item__date">OCTOBER 2019 – DECEMBER 2019 </div>
-                            <div class="education-item__institution">ENGLISH AS A SECOND LANGUAGE SCHOOL</div>
-                            <div class="education-item__course">course Intermediate English level</div>
-                        </div>
-                        <div class="education-item">
-                            <div class="education-item__date">August 2021 – OCTOBER 2021</div>
-                            <div class="education-item__institution">Kultprosvet school</div>
-                            <div class="education-item__course">course «Web development
-                                Front-end»</div>
-                        </div>
+    </section>
+    <section class="education">
+        <div class="container">
+            <h2 class="title-section">education</h2>
+            <div class="education-items">
+                <div class="education-item">
+                    <div class="education-item__date">2011-2017</div>
+                    <div class="education-item__wrap">
+                        <div class="education-item__institution">OLES HONCHAR DNIPROPETROVSK NATIONAL UNIVERSITY</div>
+                        <div class="education-item__course">Master Degree in mechanical engineering</div>    
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-item__date">OCTOBER 2016 – JULY 2017</div>
+                    <div class="education-item__wrap">
+                        <div class="education-item__institution">SERGEY PULIN'S ENGLISH SCHOOL</div>
+                        <div class="education-item__course">course Pre-Intermediate English level</div>    
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-item__date">JULY 2018 – SEPTEMBER 2018</div>
+                    <div class="education-item__wrap">
+                        <div class="education-item__institution">IMT ACADEMY</div>
+                        <div class="education-item__course">course «HTML Developer»</div>    
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-item__date">OCTOBER 2019 – DECEMBER 2019</div>
+                    <div class="education-item__wrap">
+                        <div class="education-item__institution">ENGLISH AS A SECOND LANGUAGE SCHOOL</div>
+                        <div class="education-item__course">course Intermediate English level</div>    
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-item__date">August 2021 – OCTOBER 2021</div>
+                    <div class="education-item__wrap">
+                        <div class="education-item__institution">Kultprosvet school</div>
+                        <div class="education-item__course">course «Web development
+                            Front-end»</div>    
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-item__date">Since January 2022</div>
+                    <div class="education-item__wrap">
+                        <div class="education-item__institution">Hillel IT School</div>
+                        <div class="education-item__course">course «Front-end Pro»</div>    
                     </div>
                 </div>
             </div>
-        </section>
-        <section data-aos="fade-left" data-aos-duration="1200" class="career">
-            <div class="container">
-                <div class="inner">
-                    <h2 class="title">career</h2>
-                    <div class="career-experience">
-                        <div class="career-items">
-                            <div class="career-item">
-                                <div class="career-item__date">SINCE 2021</div>
+        </div>
+    </section>
+    <section class="career">
+        <div class="container">
+            <div class="inner">
+                <h2 class="title-section">career</h2>
+                <div class="career-experience">
+                    <div class="career-items">
+                        <div class="career-item">
+                            <div class="career-item__date">SINCE 2017</div>
+                            <div class="career-item__wrap">
                                 <div class="career-item__company">Yuzhnoye SDO</div>
-                            </div>
-                            <div class="career-item">
-                                <div class="career-item__occupation">HTML-DEVELOPER</div>
-                                <ul class="career-item__responsibilities">
-                                    <li>develop adaptive pages of websites using HTML5/CSS3/JS;</li>
-                                    <li>update and edit of current websites;</li>
-                                    <li>work with ready-made PSD layouts in Figma and Photoshop.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="career-items">
-                            <div class="career-item">
-                                <div class="career-item__date">2017-2021</div>
-                                <div class="career-item__company">Yuzhnoye SDO</div>
-                            </div>
-                            <div class="career-item">
-                                <div class="career-item__occupation">3D MODELING ENGINEER</div>
-                                <ul class="career-item__responsibilities">
-                                    <li>creation and editing 3D models of various products
-                                         in Autodesk Inventor Professional, Siemens NX; </li>
-                                    <li>3D modeling teacher for personal tutoring & assignment help.
-                                    </li>
-                                </ul>
+                                <div class="career-item__occupation">IT department</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-      <section data-aos="fade-right" data-aos-duration="1200" class="profSkills">
-            <div class="container">
-                <div class="inner">
-                    <h2 class="title">professional skills</h2>
-                    <ul class="list">
-                        <li>Adaptive layout</li>
-                        <li>HTML5, CSS3, SCSS</li>
-                        <li>Flexbox, Grid</li>
-                        <li>BEM methodology</li>
-                        <li>JavaScript</li>
-                        <li>GitHub, Git</li>
-                        <li>Graphic editors: Photoshop, Figma</li>
-                        <li>Code Editors: Sublime Text, Visual Studio Code</li>
-                    </ul>
-                </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="inner">
+                <h2 class="title-section">professional skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__item">HTML5, CSS3, SCSS</li>
+                    <li class="skills__item">Flexbox, Grid</li>
+                    <li class="skills__item">BEM methodology</li>
+                    <li class="skills__item">JavaScript</li>
+                    <li class="skills__item">GitHub, Git</li>
+                    <li class="skills__item">Graphic editors: Photoshop, Figma</li>
+                    <li class="skills__item">Code Editors: Sublime Text, Visual Studio Code</li>
+                </ul>
             </div>
-        </section>
-        <section  class="certificates">
+        </div>
+    </section>
+    <section class="certificates">
             <div class="container">
                 <div class="inner">
-                    <h2 data-aos="fade-left" data-aos-duration="1200" class="title">certificates</h2>
+                    <h2 class="title-section">certificates</h2>
                     <div class="certificates-items">
-                        <div data-aos="zoom-in" data-aos-duration="1200" class="certificates-item">
+                        <div class="certificates-item">
                             <div class="certificates-item__name">HTML DEVELOPER</div>
                             <div class="certificates-item__date">IMT ACADEMY, 2018</div>
-                            <a href="https://drive.google.com/file/d/1TctWNj1JgweSARa_6YdgyTF914PrxZpy/view?usp=sharing" class="certificates-item__id">№ЛД-29092018НД</a>
-                            <a href="https://drive.google.com/file/d/1-qs8gvnkHrpVsjzSSbuQfsKv5tS2tuLk/view?usp=sharing">
-                                <img class="certificates-item__img" src="images/html-верстальщик.jpg" alt="HTML-developer">
-                            </a>
+                            <div class="certificates-item__id">№ЛД-29092018НД</div>
                         </div>
-                        <div data-aos="zoom-in" data-aos-duration="1200" class="certificates-item">
+                        <div class="certificates-item">
                             <div class="certificates-item__name">INTERMEDIATE ENGLISH LEVEL</div>
                             <div class="certificates-item__date">ESL SCHOOL, 2020</div>
-                            <a href="https://drive.google.com/file/d/1DnWk6tVE19JsGXCkf2jt5j_QTozovXxC/view?usp=sharing" class="certificates-item__id">№0906-4</a>
-                            <a href="https://drive.google.com/file/d/1-qs8gvnkHrpVsjzSSbuQfsKv5tS2tuLk/view?usp=sharing">
-                                <img  class="certificates-item__img" src="images/intermediate level ESL.jpg" alt="Intermediate level">
-                            </a>
+                            <div class="certificates-item__id">№0503-1</div>
                         </div>    
                     </div>
                 </div>
             </div>
         </section>
-        <section data-aos="fade-right" data-aos-duration="1200" class="language">
+        <section class="language">
             <div class="container">
                 <div class="inner">
-                    <h2 class="title">language skills</h2>
+                    <h2 class="title-section">language skills</h2>
                     <div class="language-items">
                         <div class="language-item">ENGLISH – INTERMEDIATE</div>
                     </div>
@@ -175,48 +180,80 @@
         <section class="portfolio">
             <div class="container">
                 <div class="inner">
-                    <h2 data-aos="fade-left" data-aos-duration="1200" class="title">portfolio</h2>
+                    <h2 class="title-section">portfolio</h2>
                     <div class="portfolio-items">
-                        <a data-aos="zoom-in" data-aos-duration="1200" href="https://lidiia-deineko.github.io/Seafood/" class="portfolio__item">
-                            <img class="portfolio-item__img" src="images/seafood/seafood.png" alt="Project_1">
+                        <a class="portfolio-item" href="https://lidiia-deineko.github.io/Rayal-Park/">
+                            <img class="portfolio-item__img" src="images/Rayal Park/raylpark.png" alt="Project_1">
                         </a>
-                        <a data-aos="zoom-in" data-aos-duration="1200" href="https://lidiia-deineko.github.io/Cappadocia/" class="portfolio__item">
-                            <img class="portfolio-item__img" src="images/Cappadocia.jpg" alt="Project_2">
+                        <a class="portfolio-item" href="https://lidiia-deineko.github.io/Seafood/">
+                            <img class="portfolio-item__img" src="images/seafood/seafood.png" alt="Project_2">
+                        </a>
+                        <a class="portfolio-item" href="https://lidiia-deineko.github.io/Cappadocia/">
+                            <img class="portfolio-item__img" src="images/Cappadocia.jpg" alt="Project_3">
                         </a> 
-                        <a data-aos="zoom-in" data-aos-duration="1200" href="https://lidiia-deineko.github.io/Solution-ARP/" class="portfolio__item">
-                            <img class="portfolio-item__img" src="images/project_1.jpg" alt="Project_3">
+                        <a class="portfolio-item" href="https://lidiia-deineko.github.io/Solution-ARP/">
+                            <img class="portfolio-item__img" src="images/project_1.jpg" alt="Project_4">
                         </a>
-                        <a data-aos="zoom-in" data-aos-duration="1200" href="https://lidiia-deineko.github.io/Tesla_project/" class="portfolio__item">
-                            <img class="portfolio-item__img" src="images/Project_2.jpg" alt="Project_4">
-                        </a>
-                        <a data-aos="zoom-in" data-aos-duration="1200" href="https://lidiia-deineko.github.io/Audi_project/" class="portfolio__item">
-                            <img class="portfolio-item__img" src="images/Project_3.jpg" alt="Project_5">
-                        </a>               
+                        <a class="portfolio-item" href="https://lidiia-deineko.github.io/Tesla_project/">
+                            <img class="portfolio-item__img" src="images/Project_2.jpg" alt="Project_5">
+                        </a>             
                     </div>
                 </div>
             </div>
         </section>
-        <section data-aos="fade-left" data-aos-duration="1200" class="personal">
+        <section class="personal">
             <div class="container">
                 <div class="inner">
-                    <h2 class="title">personal qualities</h2>
-                    <ul class="list">
-                        <li>ability to evaluate my capabilities objectively to solve the assigned tasks; </li>
-                        <li>focusing on results; </li>
-                        <li>great desire to learn new technologies and tools.</li>
+                    <h2 class="title-section">personal qualities</h2>
+                    <ul class="personal__list">
+                        <li class="personal__item">ability to evaluate my capabilities objectively to solve the assigned tasks; </li>
+                        <li class="personal__item">focusing on results; </li>
+                        <li class="personal__item">great desire to learn new technologies and tools.</li>
                     </ul>
                 </div>
             </div>
         </section>
-    </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+        <footer class="footer">
+            <div class="container">
+                <ul class="footer__contacts__list">
+                    <li class="footer__contacts__item">
+                        <div class="footer__contacts__title">
+                            <img class="footer__contacts__icon" src="/images/phone-solid.svg" alt="">
+                            <span class="footer__contacts__text-small">viber, telegram</span>
+                        </div>
+                        <a class="footer__contacts__link" href="tel:+380939044816">+ 38 093 904 48 16</a>
+                    </li>
+                    <li class="footer__contacts__item">
+                        <div class="footer__contacts__title">
+                            <img class="footer__contacts__icon" src="/images/skype-brands.svg" alt="">
+                            <span class="footer__contacts__text-small">skype</span>
+                        </div>
+                        <a class="footer__contacts__link" href="skype:lida.deineko">lida.deineko</a>
+                    </li>
+                    <li class="footer__contacts__item">
+                        <div class="footer__contacts__title">
+                            <img class="footer__contacts__icon" src="/images/envelope-solid.svg" alt="">
+                            <span class="footer__contacts__text-small">e-mail</span>
+                        </div>
+                        <a class="footer__contacts__link" href="mailto:93deineko@gmail.com">93deineko@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    <div class="modal-certificates">
+        <div class="modal-certificates__inner">
+            <div>
+                <img class="modal-certificates__close" src="/images/close_icon.svg" alt="">
+            </div>
+        </div>
+    </div>
     
+
+    <section class="arrow-up">
+        <img class="arrow-up__btn" src="/images/circle-arrow-up.svg" alt="">
+    </section>
+
 </body>
 </html>
 
