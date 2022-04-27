@@ -291,7 +291,7 @@ body{
         padding-bottom: 5px;
     }
     &__item::before{
-        content: url(/images/check.svg);
+        content: url(../images/check.svg);
         width: 15px;
         position: absolute;
         left: 0;
@@ -359,7 +359,7 @@ body{
         padding-left: 20px;
     }
     &-item::before{
-        content: url(/images/check.svg);
+        content: url(../images/check.svg);
         width: 15px;
         position: absolute;
         left: 0;
@@ -403,7 +403,7 @@ body{
         padding-left: 25px;
     }
     &__item::before{
-        content: url(/images/check.svg);
+        content: url(../images/check.svg);
         width: 15px;
         position: absolute;
         left: 0;
