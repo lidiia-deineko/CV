@@ -233,7 +233,7 @@ body {
 .skills__item {
   padding-bottom: 5px; }
 .skills__item::before {
-  content: url(/images/check.svg);
+  content: url(../images/check.svg);
   width: 15px;
   position: absolute;
   left: 0; }
@@ -288,7 +288,7 @@ body {
   font-weight: 500;
   padding-left: 20px; }
 .language-item::before {
-  content: url(/images/check.svg);
+  content: url(../images/check.svg);
   width: 15px;
   position: absolute;
   left: 0; }
@@ -324,7 +324,7 @@ body {
     position: relative;
     padding-left: 25px; }
   .personal__item::before {
-    content: url(/images/check.svg);
+    content: url(../images/check.svg);
     width: 15px;
     position: absolute;
     left: 0; }
