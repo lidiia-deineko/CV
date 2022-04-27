@@ -32,7 +32,7 @@ window.onload = function(){
     arrWrapForImg.forEach((element, index) => {
         let imgCertItem = document.createElement('img')
         element.append(imgCertItem)
-        imgCertItem.src = `/images/${arrCertURL[index]}`
+        imgCertItem.src = `../images/${arrCertURL[index]}`
         imgCertItem.classList.add('certificates-item__img')
     })
 
