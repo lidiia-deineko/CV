@@ -108,6 +108,10 @@ body {
     .info-content__contacts {
       display: flex;
       margin-top: 15px; }
+    .info-content__location {
+      display: flex;
+      align-items: center;
+      margin-top: 15px; }
   .info-resume {
     margin-top: 20px;
     max-width: 230px; }
@@ -147,6 +151,14 @@ body {
     color: #706f6f; }
   .contacts-value__link {
     color: #706f6f; }
+
+.location__icon {
+  width: 50px;
+  margin-right: 10px; }
+.location__text {
+  color: #706f6f;
+  font-size: 18px;
+  font-weight: 200; }
 
 .title-section {
   text-transform: uppercase;
@@ -210,7 +222,8 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     padding-top: 5px;
-    padding-right: 20px; }
+    padding-right: 20px;
+    padding-bottom: 10px; }
   .career-item__company {
     color: #706f6f;
     font-size: 16px;
@@ -220,7 +233,24 @@ body {
   .career-item__occupation {
     color: #706f6f;
     font-size: 16px;
-    font-weight: 500; }
+    font-weight: 500;
+    padding-bottom: 10px; }
+  .career-item__wrap {
+    margin-right: 20px; }
+.career__list {
+  position: relative;
+  padding-top: 10px;
+  line-height: 25px;
+  color: #706f6f; }
+  .career__list-item {
+    color: #706f6f;
+    font-size: 16px;
+    padding-left: 20px; }
+  .career__list-item::before {
+    content: url(../images/check.svg);
+    width: 15px;
+    position: absolute;
+    left: 0; }
 
 .skills__list {
   padding-top: 10px;
