@@ -133,6 +133,12 @@ body{
             display: flex;
             margin-top: 15px;
         }
+        &__location{
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+
+        }
     }
     &-resume{
         margin-top: 20px;
@@ -182,6 +188,18 @@ body{
     }
     &__link{
         color: #706f6f;
+    }
+}
+
+.location{
+    &__icon{
+        width: 50px;
+        margin-right: 10px;
+    }
+    &__text{
+        color: #706f6f;
+        font-size: 18px;
+        font-weight: 200;
     }
 }
 
@@ -260,6 +278,7 @@ body{
             font-weight: 600;
             padding-top: 5px;
             padding-right: 20px;
+            padding-bottom: 10px;
         }
         &__company{
             color: #706f6f;
@@ -272,6 +291,27 @@ body{
             color: #706f6f;
             font-size: 16px;
             font-weight: 500;
+            padding-bottom: 10px;
+        }
+        &__wrap{
+            margin-right: 20px;
+        }
+    }
+    &__list{
+        position: relative;
+        padding-top: 10px;
+        line-height: 25px; 
+        color: #706f6f;
+        &-item{
+            color: #706f6f;
+            font-size: 16px;
+            padding-left: 20px; 
+        }
+        &-item::before{
+            content: url(../images/check.svg);
+            width: 15px;
+            position: absolute;
+            left: 0;
         }
     }
 }
