@@ -25,7 +25,7 @@ window.onload = function(){
 
     //модальное окно - открытие сертификата на весь экран
 
-    let arrCertURL = ['html-coder.jpg', 'intermediate level ESL.jpg']
+    let arrCertURL = ['front-end_pro.jpg', 'html-coder.jpg', 'intermediate level ESL.jpg']
 
     let arrWrapForImg = document.querySelectorAll('.certificates-item')
     
@@ -62,7 +62,9 @@ window.onload = function(){
         item.addEventListener('click', modalWindowClose)
     })
 
-    console.log(arrOfImgItem)
-  
+    // console.log(arrOfImgItem)
+    
+
+   
 }
 
