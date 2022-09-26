@@ -25,6 +25,8 @@ body {
     opacity: 0; }
   .contact-btns .contact-btns__img {
     transition: all 0.2s; }
+    .contact-btns .contact-btns__img-ln {
+      width: 49px; }
   .contact-btns .contact-btns__img:hover {
     transform: scale(1.2); }
   .contact-btns__telegram {
@@ -35,7 +37,7 @@ body {
     left: 12px;
     bottom: 25px;
     animation-delay: .4s; }
-  .contact-btns__skype {
+  .contact-btns__ln {
     left: 78px;
     bottom: 3px;
     animation-delay: .6s; }
