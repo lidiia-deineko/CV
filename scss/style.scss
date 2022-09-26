@@ -28,6 +28,9 @@ body{
     }
     .contact-btns__img{
         transition: all .2s ;
+        &-ln{
+            width: 49px;
+        }
     }
     .contact-btns__img:hover{
         transform: scale(1.2);
@@ -43,11 +46,10 @@ body{
         bottom: 25px;
         animation-delay: .4s;
     }
-    &__skype{
+    &__ln{
         left: 78px;
         bottom: 3px;
         animation-delay: .6s;
-
     }
     &__img{
         width: 40px;
