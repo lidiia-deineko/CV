@@ -150,7 +150,12 @@
       font-size: 16px; }
 
   .personal__list {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .contact-btns__img.contact-btns__img-ln {
+    position: absolute;
+    bottom: -2px;
+    left: -8px; } }
 @media (max-width: 600px) {
   .header-logo {
     font-size: 24px; }
